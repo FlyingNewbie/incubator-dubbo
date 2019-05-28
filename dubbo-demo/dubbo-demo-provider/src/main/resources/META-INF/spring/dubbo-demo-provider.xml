@@ -24,7 +24,7 @@
     <!-- 提供程序的应用程序名称，用于跟踪依赖关系 -->
     <dubbo:application name="demo-provider"/>
 
-    <!-- use multicast registry center to export service -->
+    <!-- 使用multicast作为注册中心 -->
     <dubbo:registry address="multicast://224.5.6.7:1234"/>
 
     <!-- use dubbo protocol to export service on port 20880 -->
