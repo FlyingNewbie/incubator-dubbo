@@ -21,7 +21,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
        http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
-    <!-- provider's application name, used for tracing dependency relationship -->
+    <!-- 提供程序的应用程序名称，用于跟踪依赖关系 -->
     <dubbo:application name="demo-provider"/>
 
     <!-- use multicast registry center to export service -->
